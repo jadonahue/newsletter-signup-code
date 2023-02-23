@@ -1,0 +1,8 @@
+# This is local customization info
+.DS_Store
+
+# This stores the personal API key for Mailchimp API & Audience/List ID
+.env
+
+# Node Modules
+node_modules/
