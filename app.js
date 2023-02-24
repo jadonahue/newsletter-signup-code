@@ -83,5 +83,5 @@ app.post("/failure", function (req, res) {
 
 // port is set for Heroku environment port || allows 3000 or local side as well.
 app.listen(port || 3000, function () {
-    console.log("Server is running on port 3000");
+    console.log("Server is running on port " + port);
 });
